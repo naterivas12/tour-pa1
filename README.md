@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# EcoTurismo Perú - Aplicación React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación web moderna desarrollada en React que promociona el turismo sostenible en Perú. Esta aplicación presenta destinos ecoturísticos, información de contacto y una experiencia de usuario completamente responsive.
 
-## Available Scripts
+## 🌿 Características
 
-In the project directory, you can run:
+- **Diseño Responsive**: Optimizado para dispositivos móviles, tablets y desktop
+- **Navegación SPA**: Navegación fluida entre páginas sin recargas
+- **Componentes Modulares**: Arquitectura de componentes reutilizables
+- **Bootstrap Integration**: Interfaz moderna con Bootstrap 5
+- **Filtros Interactivos**: Sistema de filtrado de destinos por región y actividad
+- **Formularios Validados**: Formularios de contacto y newsletter con validación
+- **Accesibilidad**: Implementación de mejores prácticas de accesibilidad web
+
+## 🚀 Estructura del Proyecto
+
+```
+src/
+├── components/          # Componentes reutilizables
+│   ├── Navbar.js       # Barra de navegación
+│   ├── Footer.js       # Pie de página
+│   ├── HeroCarousel.js # Carrusel principal
+│   └── DestinationCard.js # Tarjeta de destino
+├── pages/              # Páginas principales
+│   ├── Home.js         # Página de inicio
+│   ├── Destinos.js     # Página de destinos
+│   └── Contacto.js     # Página de contacto
+├── utils/              # Utilidades y datos
+│   └── destinationsData.js # Datos de destinos
+├── App.js              # Componente principal
+├── index.js            # Punto de entrada
+└── index.css           # Estilos globales
+```
+
+## 📦 Dependencias Principales
+
+- **React 19.1.1**: Biblioteca principal de UI
+- **React Router DOM**: Navegación entre páginas
+- **Bootstrap 5.3.8**: Framework CSS
+- **React Bootstrap**: Componentes de Bootstrap para React
+- **Font Awesome**: Iconos vectoriales
+
+## 🛠️ Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecuta la aplicación en modo de desarrollo.\
+Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La página se recargará automáticamente cuando hagas cambios.\
+También verás cualquier error de lint en la consola.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construye la aplicación para producción en la carpeta `build`.\
+Optimiza la construcción para el mejor rendimiento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ejecuta las pruebas en modo interactivo.
 
-### `npm run eject`
+## 🎨 Páginas Implementadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. **Inicio (Home)**
+- Carrusel hero con imágenes de destinos
+- Sección de características del servicio
+- Destinos destacados
+- Testimonios de clientes
+- Formulario de newsletter
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. **Destinos**
+- Sistema de filtros por región y actividad
+- Tarjetas expandibles con información detallada
+- Mapa interactivo de ubicaciones
+- Información de comunidades locales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. **Contacto**
+- Formulario de contacto completo con validación
+- Información de contacto y ubicación
+- Mapa de ubicación de oficinas
+- Sección de preguntas frecuentes (FAQ)
+- Enlaces a redes sociales
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌍 Características Sostenibles
 
-## Learn More
+La aplicación promueve:
+- Turismo responsable y sostenible
+- Apoyo a comunidades locales
+- Conservación del medio ambiente
+- Experiencias auténticas fuera del turismo masivo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Cómo Ejecutar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-### Code Splitting
+2. Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Abre tu navegador en [http://localhost:3000](http://localhost:3000)
 
-### Analyzing the Bundle Size
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+La aplicación está optimizada para:
+- Dispositivos móviles (320px+)
+- Tablets (768px+)
+- Desktop (1024px+)
 
-### Making a Progressive Web App
+## 🎯 Próximas Mejoras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Sistema de reservas en línea
+- Galería de fotos interactiva
+- Blog de experiencias
+- Sistema de reseñas de usuarios
+- Integración con redes sociales
