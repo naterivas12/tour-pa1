@@ -12,7 +12,7 @@ const Home = () => {
       <section className="container my-5">
         <Row>
           <Col lg={8} className="mx-auto text-center">
-            <h2 className="section-title">Bienvenidos a EcoTurismo Perú</h2>
+            <h2 className="section-title">Bienvenidos a EcoTurismo Peru 2</h2>
             <p className="lead">Descubre destinos increíbles mientras contribuyes a la conservación del medio ambiente y el desarrollo de comunidades locales.</p>
             <p>Nuestro compromiso es ofrecer experiencias turísticas sostenibles que permitan disfrutar de la riqueza natural y cultural de Perú de manera responsable.</p>
           </Col>
