@@ -30,16 +30,31 @@ const Contacto = () => {
   return (
     <>
       {/* Cabecera */}
-      <header className="bg-light py-5">
-        <Container>
-          <Row className="align-items-center">
-            <Col lg={8} className="mx-auto text-center">
-              <h1 className="display-4">Contáctanos</h1>
-              <p className="lead">Estamos aquí para ayudarte a planificar tu próxima aventura ecoturística</p>
-            </Col>
-          </Row>
-        </Container>
-      </header>
+<header className="bg-light py-5">
+  <Container>
+    <Row className="align-items-center">
+      <Col lg={8} className="mx-auto text-center">
+        <h1 className="display-4">Contáctanos</h1>
+        <p className="lead">
+          Estamos aquí para ayudarte a planificar tu próxima aventura ecoturística
+        </p>
+        <p className="lead">
+          ¿Listo para reconectar con la naturaleza y vivir una experiencia inolvidable?
+        </p>
+        <p className="lead">
+          Estamos aquí para ayudarte a planificar tu próxima aventura ecoturística, diseñada especialmente para quienes buscan explorar paisajes únicos, aprender sobre la biodiversidad local y contribuir al turismo sostenible.
+        </p>
+        <p className="lead">
+          Nuestro equipo está comprometido con brindarte asesoría personalizada, recomendaciones de destinos auténticos, y opciones de actividades que respetan el entorno natural y las comunidades locales.
+        </p>
+        <p className="lead">
+          ya sea que sueñes con caminar por bosques nublados, observar aves exóticas, participar en talleres ecológicos o simplemente relajarte en un entorno natural, estamos aquí para hacerlo realidad.
+        </p>
+      
+      </Col>
+    </Row>
+  </Container>
+</header>
 
       {/* Sección principal de contacto */}
       <section className="container my-5">
